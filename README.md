@@ -1,5 +1,7 @@
 # ZIP filename preflight prototype
 
+Download the [source ZIP](https://codeload.github.com/Dexter-Ou/zip-portability/zip/7ee2fae5b765b01b65b8f98a3a99865530c2d561), extract it and open a terminal in the extracted folder.
+
 Python 3.10+, standard library only. Run `python3 check_zip.py archive.zip`.
 Exit 0 means no findings under this narrow policy; 1 means findings; 2 means input error.
 JSON goes to stdout. The archive is opened read-only; nothing is extracted or repaired.
